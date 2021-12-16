@@ -6,13 +6,13 @@ readme = f.read()
 f.close()
 
 setup(
-    name='django-wysiwyg-redactor',
-    version='0.5.2',
-    description='django-wysiwyg-redactor is a lightweight responsive wysiwyg editor for Django',
+    name='streetvoice-django-wysiwyg-redactor',
+    version='0.6.2',
+    description='streetvoice-django-wysiwyg-redactor is a lightweight responsive wysiwyg editor for Django',
     long_description=readme,
-    author="Douglas Miranda",
-    author_email='douglasmirandasilva@gmail.com',
-    url='https://github.com/douglasmiranda/django-wysiwyg-redactor',
+    author="Robert Chiang",
+    author_email='robert@streetvoice.com',
+    url='https://github.com/StreetVoice/django-wysiwyg-redactor',
     license='MIT',
     packages=['redactor'],
     include_package_data=True,

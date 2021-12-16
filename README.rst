@@ -1,15 +1,13 @@
 A lightweight wysiwyg editor for Django
 =======================================
 
-Screenshot
-----------
-
-.. image:: https://raw.githubusercontent.com/douglasmiranda/django-wysiwyg-redactor/master/screenshots/redactor.jpg
+- This repo was forked from `https://github.com/douglasmiranda/django-wysiwyg-redactor <https://github.com/douglasmiranda/django-wysiwyg-redactor/>`_
+- Original author: Douglas Miranda
 
 What's that
 -----------------
 
-*django-wysiwyg-redactor* is a text editor application for Django, using `Redactor WYSIWYG editor <https://imperavi.com/redactor/>`_
+*streetvoice-django-wysiwyg-redactor* is a text editor application for Django, using `Redactor WYSIWYG editor <https://imperavi.com/redactor/>`_
 
 Dependency
 ----------
@@ -19,9 +17,9 @@ Dependency
 Getting started
 ---------------
 
-- Install *django-wysiwyg-redactor*:
+- Install *streetvoice-django-wysiwyg-redactor*:
 
-``pip install django-wysiwyg-redactor``
+``pip install streetvoice-django-wysiwyg-redactor``
 
 - Add `'redactor'` to INSTALLED_APPS.
 
@@ -143,7 +141,7 @@ For example, if I want to use the DateDirectoryUploader handler, I will put this
 
 Upload permissions
 ------------------
-By default django-wysiwyg-redactor uses `staff_member_required` decorator from
+By default streetvoice-django-wysiwyg-redactor uses `staff_member_required` decorator from
 `django.contrib.admin.views.decorators` package to control access to dispatch
 method.
 
@@ -157,7 +155,7 @@ upload files/images/etc.:
 
 File Storages
 -------------
-*django-wysiwyg-redactor* defaults to using the default media storage for your Django application.
+*streetvoice-django-wysiwyg-redactor* defaults to using the default media storage for your Django application.
 
 This can be overridden to use a different storage backend with this settings.py variable:
 
@@ -190,8 +188,8 @@ Contributing
 
 Made by robots, or what?
 ------------------------
-Awesome people, you should see the `AUTHORS <https://github.com/douglasmiranda/django-wysiwyg-redactor/blob/master/AUTHORS>`_ file.
+Awesome people, you should see the `AUTHORS <https://github.com/StreetVoice/django-wysiwyg-redactor/blob/master/AUTHORS>`_ file.
 
 About the licensing
 -------------------
-You may want to see the `LICENSE <https://github.com/douglasmiranda/django-wysiwyg-redactor/blob/master/LICENSE>`_ file.
+You may want to see the `LICENSE <https://github.com/StreetVoice/django-wysiwyg-redactor/blob/master/LICENSE>`_ file.
